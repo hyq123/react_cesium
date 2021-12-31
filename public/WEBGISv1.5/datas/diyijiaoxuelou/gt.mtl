@@ -1,0 +1,413 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 09.11.2021 14:41:59
+
+newmtl baiqiang
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\build_qiang_diff.jpg
+	map_Kd maps\build_qiang_diff.jpg
+	map_bump -bm 0.3000 maps\Map__46_Normal Bump.tga
+
+newmtl damentaijie
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.1059 0.1020 0.0863
+	Kd 0.1059 0.1020 0.0863
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\build_taijie_diff_.jpg
+	map_Kd maps\build_taijie_diff_.jpg
+	map_bump -bm 0.3000 maps\Map__51_Normal Bump.tga
+
+newmtl shuini
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\build_shuini_diff_.jpg
+	map_Kd maps\build_shuini_diff_.jpg
+
+newmtl huatanya
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\build_huatanyan_diff.jpg
+	map_Kd maps\build_huatanyan_diff.jpg
+	map_bump -bm 0.3000 maps\Map__59_Normal Bump.tga
+
+newmtl huazhuan
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\build_huazhuan_diff.jpg
+	map_Kd maps\build_huazhuan_diff.jpg
+	map_bump -bm 0.3000 maps\Map__63_Normal Bump.tga
+
+newmtl muban
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\build_muban_diff.jpg
+	map_Kd maps\build_muban_diff.jpg
+	map_bump -bm 0.3000 maps\Map__67_Normal Bump.tga
+
+newmtl baiyoulu
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\build_diman_diff.jpg
+	map_Kd maps\build_diman_diff.jpg
+	map_bump -bm 0.3000 maps\Map__53_Normal Bump.tga
+
+newmtl zhuan
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0902 0.0941 0.1451
+	Kd 0.0902 0.0941 0.1451
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\build_dimianzhuan_diff .jpg
+	map_Kd maps\build_dimianzhuan_diff .jpg
+	map_bump -bm 0.3000 maps\Map__73_Normal Bump.tga
+
+newmtl toutie
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\build_toutie_diff.jpg
+	map_Kd maps\build_toutie_diff.jpg
+	map_d maps\build_toutie_op.jpg
+	map_bump -bm 0.3000 maps\Map__61_Normal Bump.tga
+
+newmtl chuanghu
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\build_chuanghu_diff.jpg
+	map_Kd maps\build_chuanghu_diff.jpg
+	map_bump -bm 0.3000 maps\Map__71_Normal Bump.tga
+
+newmtl men_2
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\build_men_2_diff.jpg
+	map_Kd maps\build_men_2_diff.jpg
+
+newmtl ludi
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\build_ludi_diff.jpg
+	map_Kd maps\build_ludi_diff.jpg
+	map_bump -bm 0.3000 maps\Map__48_Normal Bump.tga
+
+newmtl qiutai
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0902 0.7686
+	Kd 0.0000 0.0902 0.7686
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\build_qiutai_diff.jpg
+	map_Kd maps\build_qiutai_diff.jpg
+
+newmtl xuanchuanchuang
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0353 0.0275 0.0275
+	Kd 0.0353 0.0275 0.0275
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\build_xuanchuanlan_diff.jpg
+	map_Kd maps\build_xuanchuanlan_diff.jpg
+
+newmtl lajitong
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0471 0.2745 0.0000
+	Kd 0.0471 0.2745 0.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\build_lajitou_diff.jpg
+	map_Kd maps\build_lajitou_diff.jpg
+
+newmtl longyuguan
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.8235 0.8235 0.8235
+	Kd 0.8235 0.8235 0.8235
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\build_yulou_diff.jpg
+	map_Kd maps\build_yulou_diff.jpg
+
+newmtl huatan
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\build_huatan_diff.jpg
+	map_Kd maps\build_huatan_diff.jpg
+	map_bump -bm 0.3000 maps\Map__57_Normal Bump.tga
+
+newmtl taijie_1
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.1137 0.2000 0.1922
+	Kd 0.1137 0.2000 0.1922
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\build_taijie_1_diff.jpg
+	map_Kd maps\build_taijie_1_diff.jpg
+
+newmtl men_3
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\build_men_3_diff.jpg
+	map_Kd maps\build_men_3_diff.jpg
+
+newmtl men_1
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\build_men_1_diff.jpg
+	map_Kd maps\build_men_1_diff.jpg
+
+newmtl ruandian
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0314 0.0314 0.0314
+	Kd 0.0314 0.0314 0.0314
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\build_ruandian_diff.jpg
+	map_Kd maps\build_ruandian_diff.jpg
+	map_bump -bm 0.3000 maps\Map__69_Normal Bump.tga
+
+newmtl zhuanqiang
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0902 0.0941 0.1451
+	Kd 0.0902 0.0941 0.1451
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\build_zhuanqiang_diff.jpg
+	map_Kd maps\build_zhuanqiang_diff.jpg
+	map_bump -bm 0.3000 maps\Map__75_Normal Bump.tga
+
+newmtl ding
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.3804 0.3804 0.3804
+	Kd 0.3804 0.3804 0.3804
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\build_ding_diff_.jpg
+	map_Kd maps\build_ding_diff_.jpg
+	map_bump -bm 0.3000 maps\Map__55_Normal Bump.tga
+
+newmtl Material__2
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\tree_pi_2_diff.jpg
+	map_Kd maps\tree_pi_2_diff.jpg
+
+newmtl Material__3
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\tree_ye_2_diff.png
+	map_Kd maps\tree_ye_2_diff.png
+	map_d maps\tree_ye_2_op.jpg
+
+newmtl guanmu
+	Ns 1.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.2159 0.2159 0.2159
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\build_guanmu_diff.jpg
+	map_Kd maps\build_guanmu_diff.jpg
+	map_d maps\build_guanmu_op.jpg
+	map_bump -bm 0.3000 maps\Map__65_Normal Bump.tga
+
+newmtl AM113_060_Staphyella_pinnata_Bark
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\tree_pi_1_diff.jpg
+	map_Kd maps\tree_pi_1_diff.jpg
+
+newmtl AM113_059_Staphyella_pinnata
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\tree_ye_1_diff.png
+	map_Kd maps\tree_ye_1_diff.png
+	map_d maps\tree_ye_1_op.jpg

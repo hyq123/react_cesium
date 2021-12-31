@@ -1,0 +1,4 @@
+{"type":"FeatureCollection", "features": [
+{"type":"Feature","geometry":{"type":"Point","coordinates":[116.31056239303993,39.9074984267425]},"properties":{"Id":0,"单位":"警保处","警力":"","岗位":"柳林馆路北侧","类型":"餐车"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[116.31481108958296,39.90570576265851]},"properties":{"Id":0,"单位":"警保处","警力":"","岗位":"京东岗","类型":"餐车"}}
+]}

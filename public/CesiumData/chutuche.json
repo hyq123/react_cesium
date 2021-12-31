@@ -1,0 +1,8 @@
+{"type":"FeatureCollection", "features": [
+{"type":"Feature","geometry":{"type":"Point","coordinates":[116.31483593832797,39.90513035837938]},"properties":{"OBJECTID":1,"Id":0,"名称":"京西东门、阻截车","单位":"海106","警力":"","备注":""}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[116.31064414071454,39.90735263621525]},"properties":{"OBJECTID":2,"Id":0,"名称":"阻截车","单位":"海101","警力":"","备注":""}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[116.31008183510869,39.90629780160231]},"properties":{"OBJECTID":3,"Id":0,"名称":"阻截车","单位":"田村","警力":"","备注":""}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[116.30988195988459,39.906171690571114]},"properties":{"OBJECTID":4,"Id":0,"名称":"阻截车","单位":"海107","警力":"","备注":""}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[116.31064675864104,39.902819406490494]},"properties":{"OBJECTID":5,"Id":0,"名称":"阻截车","单位":"海109","警力":"","备注":""}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[116.31476703317207,39.90776535398794]},"properties":{"OBJECTID":6,"Id":0,"名称":"阻截车","单位":"海110","警力":"","备注":""}}
+]}

@@ -1,0 +1,5 @@
+{"type":"FeatureCollection", "features": [
+{"type":"Feature","geometry":{"type":"Point","coordinates":[116.315944527615,39.90417044912744]},"properties":{"Id":0,"单位":"消防支队","警力":"","岗位":"恩菲大厦","类型":"消防车"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[116.32748015457129,39.906873516830075]},"properties":{"Id":0,"单位":"消防支队","警力":"","岗位":"中国科技会堂","类型":"消防车"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[116.31019003911852,39.907213303861695]},"properties":{"Id":0,"单位":"消防支队","警力":"","岗位":"中国科学技术研究院","类型":"消防车"}}
+]}

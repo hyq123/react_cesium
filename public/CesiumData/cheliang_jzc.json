@@ -1,0 +1,3 @@
+{"type":"FeatureCollection", "features": [
+{"type":"Feature","geometry":{"type":"Point","coordinates":[116.31056781807013,39.90744735566934]},"properties":{"Id":0,"岗位":"科情所东门","单位":"十二总队驻区中队","警力":"1辆车","类型":"技侦车"}}
+]}

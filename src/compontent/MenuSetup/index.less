@@ -1,0 +1,118 @@
+.menu {
+  width: 243px;
+  height: 860px;
+  background: url("../images/menu.png") no-repeat;
+  padding-top: 30px;
+  position: relative;
+}
+.menu .box::-webkit-scrollbar {
+  width: 0 !important
+  // display: none;
+}
+
+.menu .ant-menu {
+  background: rgba(0, 0, 0, 0.1) !important;
+}
+
+.menu .ant-menu-submenu > .ant-menu {
+  background: rgba(0, 0, 0, 0.1) !important;
+}
+.ant-menu-submenu-arrow {
+  color: #9bc8ff !important;
+}
+
+.hover_title{
+  position: absolute;
+  width:214px;
+  padding:20px;
+  background: url('../images/menu_pos.png');
+  background-size: auto;
+  left:262px;
+  p{
+    // background: linear-gradient(0deg, #4598FF 0%, #FFFFFF 100%);
+    background: linear-gradient(0deg, #4598FF 0%, #FFFFFF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+    font-family: PingFang SC;
+    font-weight: 600;
+    margin-bottom: 0;
+  }
+  span{
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 24px;
+  }
+}
+.tableClass {
+  margin-left: 20px;
+  position: absolute;
+  top: 38px;
+  left: 600px;
+  z-index: 99;
+  /* height: calc(80%); */
+  .ant-tabs-tab{
+    height: 20px !important;
+   
+    border: none !important;
+    border-right: 1px solid #4598ff !important;
+    background:rgba(0,0,0,0) !important;
+  }
+}
+
+.ant-tabs-tabpane{
+    display: none;
+}
+
+.ant-tabs-content-holder{
+    display: none;
+}
+
+.ant-tabs-tab {
+  width: 130px;
+  height: 36px;
+  border: 0px solid #4598ff;
+  border-radius: 4px 0px 0px 4px;
+  text-align: center !important;
+  color: #9bc8ff !important;
+  background: rgba(7, 23, 61, 0.6) !important;
+  text-align: center !important;
+  border: 1px solid #4598ff !important;
+}
+.ant-tabs-tab-active {
+  background-color: #2b69fbb7 !important;
+  color: white !important;
+}
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: white !important;
+  text-shadow: 0 0 0.25px currentColor;
+  width: 100%;
+}
+.ant-tabs-tab-btn {
+  width: 100%;
+}
+.ant-tabs-tab + .ant-tabs-tab {
+  margin: 0 !important;
+}
+
+.wrapapp{
+  .header{
+    display: flex;
+    .headerleft{
+      display: flex;
+      img{
+        width: 41px;
+        height: 47px;
+        margin: 20px 37px 0;
+      }
+      p{
+        color: #fff;
+        font-size: 36px;
+        line-height: 80px;
+        
+      }
+
+    }
+  }
+}

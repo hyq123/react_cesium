@@ -1,0 +1,7 @@
+{"type":"FeatureCollection", "features": [
+{"type":"Feature","geometry":{"type":"Point","coordinates":[116.31050563269847,39.90594856915978]},"properties":{"Id":0,"名称":"岗亭"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[116.31480365311339,39.905915970544015]},"properties":{"Id":0,"名称":"岗亭"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[116.31482535379772,39.9050679306415]},"properties":{"Id":0,"名称":"岗亭"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[116.31056903921657,39.89707870429749]},"properties":{"Id":0,"名称":"岗亭"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[116.31535353213363,39.89759656889272]},"properties":{"Id":0,"名称":"岗亭"}}
+]}

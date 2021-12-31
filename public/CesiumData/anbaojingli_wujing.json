@@ -1,0 +1,5 @@
+{"type":"FeatureCollection", "features": [
+{"type":"Feature","geometry":{"type":"Point","coordinates":[116.31073458670126,39.905192919384724]},"properties":{"Id":0,"单位":"武警","警力":"2人","岗位":"京西西北门与西南门之间巡视","着装":""}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[116.31150695974377,39.90600336380333]},"properties":{"Id":0,"单位":"武警","警力":"2人","岗位":"京西北墙中段到西侧巡视","着装":""}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[116.31368654602511,39.90598908703729]},"properties":{"Id":0,"单位":"武警","警力":"2人","岗位":"京西北墙中段至东侧巡视","着装":""}}
+]}

@@ -1,0 +1,4 @@
+{"type":"FeatureCollection", "features": [
+{"type":"Feature","geometry":{"type":"Point","coordinates":[116.31476328702897,39.90658936159676]},"properties":{"Id":0,"名称":"世纪坛路口西北侧","单位":"","警力":""}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[116.31080919390796,39.90601238989206]},"properties":{"Id":0,"名称":"羊坊店西路与复兴路交叉路口","单位":"","警力":""}}
+]}

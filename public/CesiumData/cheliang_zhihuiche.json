@@ -1,0 +1,3 @@
+{"type":"FeatureCollection", "features": [
+{"type":"Feature","geometry":{"type":"Point","coordinates":[116.3097099825888,39.907141812180036]},"properties":{"Id":0,"单位":"科情所指挥部","警力":"","岗位":"科情所指挥部西南边","类型":"指挥车"}}
+]}

@@ -1,0 +1,4 @@
+{"type":"FeatureCollection", "features": [
+{"type":"Feature","geometry":{"type":"Point","coordinates":[116.31079248691913,39.90719023895302]},"properties":{"Id":0,"单位":"反特总队","警力":"1辆特警处突车","岗位":"央视西门","类型":"特警车"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[116.31079819762554,39.906975135678096]},"properties":{"Id":0,"单位":"反特总队","警力":"1辆特警排爆车","岗位":"央视西门","类型":"特警车"}}
+]}

@@ -1,0 +1,4 @@
+{"type":"FeatureCollection", "features": [
+{"type":"Feature","geometry":{"type":"Point","coordinates":[116.31084204316028,39.905771239450665]},"properties":{"Id":0,"名称":"京西西北门","单位":"","警力":""}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[116.31073384430945,39.904341151660006]},"properties":{"Id":0,"名称":"京西西南门","单位":"","警力":""}}
+]}

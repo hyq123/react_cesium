@@ -1,0 +1,113 @@
+
+html,
+body,
+#cesiumContainer {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+.leaflet-popup {
+	
+	position: absolute;
+	text-align: center;
+	padding: 10px 10px 10px 10px;
+}
+.leaflet-popup-close-button {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 4px 4px 0 0;
+	text-align: center;
+	width: 18px;
+	height: 14px;
+	font: 16px/14px Tahoma, Verdana, sans-serif;
+	color: #c3c3c3;
+	text-decoration: none;
+	font-weight: bold;
+	background: transparent;
+}
+
+.leaflet-popup-content-wrapper {
+	text-align: center;
+	overflow-y: auto;
+	background: transparent;
+	padding: 1px;
+	text-align: left;
+	border-radius: 5px;
+}
+
+.leaflet-popup-tip-container {
+	margin: 0 auto;
+	width: 40px;
+	height: 20px;
+	position: relative;
+	overflow: hidden;
+}
+
+/*引导线*/
+.leaflet-popup-tip {
+	background: white;
+	box-shadow: 0 3px 14px rgba(0, 0, 0, 0.4);
+	width: 17px;
+	height: 17px;
+	padding: 1px;
+	margin: -10px auto 0;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+/**
+ * 气泡框顶级父元素
+ */
+/*#bubbleContent{
+	margin: 10px;
+}*/
+
+
+/**
+样式
+**/
+.leaflet-popup-content-wrapper2 .pop-main::-webkit-scrollbar{ 
+	width:10px;
+}
+.leaflet-popup-content-wrapper2 .pop-main::-webkit-scrollbar-track{
+	background: #023f77;
+	border-radius:2px;
+}
+.leaflet-popup-content-wrapper2 .pop-main::-webkit-scrollbar-thumb{
+	background: #0e76d6;
+	border-radius:10px;
+}
+.leaflet-popup-content-wrapper2 .pop-main::-webkit-scrollbar-thumb:hover{
+	background: #0e76d6;
+}
+.leaflet-popup-content-wrapper2 .pop-main::-webkit-scrollbar-corner{
+	background: #0358a7;
+}
+.leaflet-popup-content-wrapper2{
+	background:rgba(13, 41, 72, 0.6) !important;
+	box-shadow: inset 0 0 50px #0e76d6;
+	color:#fff;
+	padding: 30px 40px;
+	width: 300px;
+}
+.leaflet-popup-content-wrapper2 p{
+	margin-bottom:8px;
+}
+.leaflet-popup-content-wrapper2 .pop-close{
+	position: absolute;
+	right:20px;
+	top:2px;
+	font-size:30px;
+	user-select: none;
+}
+.leaflet-popup-content-wrapper2 .pop-main{
+	height:132px;
+	overflow-y: auto;
+	font-size: 16px;
+}

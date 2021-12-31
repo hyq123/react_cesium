@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+
+    <link href="./WEBGISv1.5/library/gis/XbsjSDK/XbsjCesium/Widgets/widgets.css" rel="stylesheet"/>
+    <script type="text/javascript" src="./WEBGISv1.5/library/gis/XbsjSDK/XbsjCesium/Cesium.js" ></script>
+
+    <script type="text/javascript" src="./WEBGISv1.5/library/gis/XbsjSDK/XbsjCesium/XbsjCesium.js" ></script>
+		<script type="text/javascript" src="./WEBGISv1.5/library/gis/XbsjSDK/XbsjEarth/XbsjEarth.js" ></script>
+
+    <link rel="stylesheet" href="./WEBGISv1.5/library/d3kit.v1.5/d3kit.css" />
+
+		<script type="text/javascript" src="./WEBGISv1.5/library/d3kit.v1.5/d3kit.js" ></script>
+
+    <title>React App</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+
+    <script>
+         window.D3Kit = Cesium.D3Kit;
+
+//       window.onload = function () {
+//           XE.ready().then(startup);
+//       }
+
+//       /**
+//        * 初始化 EarthSDK
+//        */
+//       function startup() {
+//         let earth = new XE.Earth('cesiumContainer', {
+//             infoBox: false,
+//         });
+//         setTimeout(() => {
+//         earth.cameraViewManager = {
+//           "lastView": {
+//             "position": [
+//               2.0314793863304743,
+//               0.6958341210168439,
+//               4041.5286127728064
+//             ],
+//             "rotation": [
+//               3.552713678800501e-15,
+//               -0.7860290443590072,
+//               6.283185307179586
+//             ],
+//             "fov": 1.0471975511965976,
+//             "near": 0.1,
+//             "far": 10000000000
+//           }
+//         }
+        
+//           earth.weather.atmosphere.enabled = false;
+
+//           const bloom = earth.postProcess.bloom;
+//           bloom.enabled = true;
+//           bloom.glowOnly = false;
+//           bloom.contrast = 119;
+//           bloom.brightness = -0.4;
+//           bloom.delta = 0.9;
+//           bloom.sigma = 3.78;
+//           bloom.stepSize = 5;
+//           bloom.isSelected = false;
+                  
+//           // 启动光影
+//       //  earth.effect.shadow.enabled = true;
+//       //		earth.effect.shadow.darkness = 0.5;
+//       //		
+//       //		earth.effect.shadow.maximumDistance = 1000;
+//       //  earth.effect.shadow.terrainShadow = true;
+//       //  earth.effect.shadow.softShadows = true;
+//       //  earth.effect.shadow.normalOffset = true;
+//       }, 3000)
+      
+//       let shaderStr = `float _baseHeight = -40.0; 
+// 			            float _heightRange = 50.0; // 高亮的范围(_baseHeight ~ _baseHeight + _heightRange) 默认是 0-60米
+// 			            float _glowRange = 300.0; // 光环的移动范围(高度)
+			
+// 			            // 建筑基础色
+// 			            float vtxf_height = v_elevationPos.z - _baseHeight;
+// 			            float vtxf_a11 = fract(czm_frameNumber / 120.0) * 3.14159265 * 2.0;
+// 			            float vtxf_a12 = vtxf_height / _heightRange + sin(vtxf_a11) * 0.1;
+// 			            gl_FragColor *= vec4(vtxf_a12, vtxf_a12, vtxf_a12, 1.0);
+			
+// 			            // 动态光环
+// 			            float vtxf_a13 = fract(czm_frameNumber / 360.0);
+// 			            float vtxf_h = clamp(vtxf_height / _glowRange, 0.0, 1.0);
+// 			            vtxf_a13 = abs(vtxf_a13 - 0.5) * 2.0;
+// 			            float vtxf_diff = step(0.005, abs(vtxf_h - vtxf_a13));
+// 			            gl_FragColor.rgb += gl_FragColor.rgb * (1.0 - vtxf_diff);
+// 			            `;
+
+//       earth.sceneTree.root = {
+//         "children": [
+
+//           {
+//             "czmObject": {
+//               "name": "高德地图",
+//               "xbsjType": "Imagery",
+//               "xbsjImageryProvider": {
+//                 "XbsjImageryProvider": {
+// //              	http://webst02.is.autonavi.com/appmaptile?style=6&x=215827&y=99328&z=18
+//                   "url": "//webst02.is.autonavi.com/appmaptile?style=6&x={x}&y={y}&z={z}",
+//                   "srcCoordType": "GCJ02",
+//                   "dstCoordType": "WGS84",
+//                   "maximumLevel": 18,
+//                 },
+//               }
+//             }
+//           },
+            
+//           {
+//             "czmObject": {
+//               "xbsjType": "Tileset",
+//               "xbsjGuid": "972a5ffc-aff5-4c67-a0b9-0358b52a6c04",
+//               "name": "tiles03",
+//               "url": "http://172.16.77.188:8686/beijing_51/tiles03/tileset.json",
+//               "xbsjPosition": [
+//                 2.0321045048705035,
+//                 0.6961161535569185,
+//                 -55
+//               ],
+//               "xbsjScale": [
+//                 10,
+//                 10,
+//                 10
+//               ],
+          		
+// //        		"xbsjStyle": "var style = {\n    color: \"vec4(0, 0.5, 1.0,1)\"\n}",
+
+//               "xbsjUseOriginTransform": false,
+//               "xbsjClippingPlanes": {},
+//               "xbsjCustomShader": {
+// //            	"fsBody": shaderStr
+//               }
+//             }
+//           },
+//           {
+//             "czmObject": {
+//               "xbsjType": "Tileset",
+//               "xbsjGuid": "fe038609-df93-4a7a-b822-adcb73acfbd1",
+//               "name": "tiles02",
+//               "url": "http://172.16.77.188:8686/beijing_51/tiles02/tileset.json",
+//               "xbsjPosition": [
+//                 2.0321074297190926,
+//                 0.6991511152368062,
+//                 -55
+//               ],
+//               "xbsjScale": [
+//                 10,
+//                 10,
+//                 10
+//               ],
+//               "xbsjUseOriginTransform": false,
+//               "xbsjClippingPlanes": {},
+// //            "xbsjStyle": "var style = {\n    color: \"vec4(0, 0.5, 1.0,1)\"\n}",
+//               "xbsjCustomShader": {
+// //            	"fsBody": shaderStr
+//               }
+//             }
+//           },
+//           {
+//             "czmObject": {
+//               "xbsjType": "Tileset",
+//               "xbsjGuid": "0b09847b-ed52-4a42-8e14-706e6c9a05d7",
+//               "name": "tiles01",
+//               "url": "http://172.16.77.188:8686/beijing_51/tiles01/tileset.json",
+//               "xbsjPosition": [
+//                 2.0277807266180976,
+//                 0.699165583755685,
+//                 -55
+//               ],
+//               "xbsjScale": [
+//                 10,
+//                 10,
+//                 10
+//               ],
+//               "xbsjUseOriginTransform": false,
+//               "xbsjClippingPlanes": {},
+// //            "xbsjStyle": "var style = {\n    color: \"vec4(0, 0.5, 1.0,1)\"\n}",
+//               "xbsjCustomShader": {
+// //            	"fsBody": shaderStr
+//               }
+//             }
+//           },
+//           {
+//             "czmObject": {
+//               "xbsjType": "Tileset",
+//               "xbsjGuid": "4cee6e5a-7c43-44c9-a11c-07ad9f71308b",
+//               "name": "tiles04",
+//               "url": "http://172.16.77.188:8686/beijing_51/tiles04/tileset.json",
+//               "xbsjPosition": [2.0277830800790295,
+//                 0.6961262612174707,
+//                 -55
+//               ],
+//               "xbsjScale": [10,
+//                 10,
+//                 10
+//               ],
+//               "xbsjUseOriginTransform": false,
+//               "xbsjClippingPlanes": {},
+// //            "xbsjStyle": "var style = {\n    color: \"vec4(0, 0.5, 1.0,1)\"\n}",
+//               "xbsjCustomShader": {
+// //            	"fsBody": shaderStr
+//               }
+//             }
+//           }
+
+
+//         ]
+//       }
+      
+      
+//        // only for Debug
+//        window.earth = earth;
+//        // window.
+//     }
+      
+
+    </script>
+  </body>
+</html>

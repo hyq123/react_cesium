@@ -1,0 +1,4 @@
+{"type":"FeatureCollection", "features": [
+{"type":"Feature","geometry":{"type":"Point","coordinates":[116.31070943626172,39.89929146162937]},"properties":{"Id":0,"岗位":"京西周边巡视","单位":"治安支队","警力":"1辆车","类型":"捕犬车"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[116.31484950021051,39.899248307463225]},"properties":{"Id":0,"岗位":"京西周边巡视","单位":"治安支队","警力":"1辆车","类型":"捕犬车"}}
+]}

@@ -1,0 +1,7 @@
+{"type":"FeatureCollection", "features": [
+{"type":"Feature","geometry":{"type":"Point","coordinates":[116.31064414112244,39.90735263655312]},"properties":{"Id":0,"名称":"阻截车","单位":"海101","警力":"","备注":""}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[116.31008183482903,39.90629780166028]},"properties":{"Id":0,"名称":"阻截车","单位":"田村","警力":"","备注":""}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[116.30988196010452,39.906171690226955]},"properties":{"Id":0,"名称":"阻截车","单位":"海107","警力":"","备注":""}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[116.3106467585296,39.902819406417436]},"properties":{"Id":0,"名称":"阻截车","单位":"海109","警力":"","备注":""}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[116.31476703320767,39.907765354064615]},"properties":{"Id":0,"名称":"阻截车","单位":"海110","警力":"","备注":""}}
+]}

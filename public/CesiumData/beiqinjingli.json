@@ -1,0 +1,10 @@
+{"type":"FeatureCollection", "features": [
+{"type":"Feature","geometry":{"type":"Point","coordinates":[116.31563268112187,39.90900074047558]},"properties":{"Id":0,"名称":"远端备勤","单位":"","警力":"","备注":""}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[116.31055909522081,39.90334591173734]},"properties":{"Id":0,"名称":"空军东门备勤","单位":"","警力":"20","备注":""}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[116.31056391362888,39.90756129545452]},"properties":{"Id":0,"名称":"科情所备勤","单位":"","警力":"20","备注":""}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[116.31056867255091,39.90764279199397]},"properties":{"Id":0,"名称":"上访处置备勤","单位":"法制","警力":"5","备注":""}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[116.30968069736112,39.905971359439114]},"properties":{"Id":0,"名称":"科情天桥南侧备勤","单位":"田村","警力":"","备注":""}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[116.32051898262134,39.90558855968398]},"properties":{"Id":0,"名称":"铁路总公司院内备勤","单位":"","警力":"","备注":""}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[116.31563549582603,39.908760738124016]},"properties":{"Id":0,"名称":"上访处置备勤","单位":"","警力":"","备注":""}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[116.31483739486141,39.9046644186699]},"properties":{"Id":0,"名称":"京西东门南侧备勤","单位":"","警力":"","备注":""}}
+]}

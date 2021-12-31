@@ -1,0 +1,14 @@
+{"type":"FeatureCollection", "features": [
+{"type":"Feature","geometry":{"type":"Point","coordinates":[116.30740886532593,39.90742612620632]},"properties":{"Id":0,"名称":"国海大厦a座","单位":"","警力":""}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[116.30661888427198,39.90796983304615]},"properties":{"Id":0,"名称":"国海大厦b座","单位":"","警力":""}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[116.30900250933465,39.90727919448916]},"properties":{"Id":0,"名称":"中国科学技术信息研究所","单位":"","警力":""}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[116.31460614000342,39.90430248877086]},"properties":{"Id":0,"名称":"4号楼","单位":"","警力":""}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[116.31444766790044,39.90495303340986]},"properties":{"Id":0,"名称":"1号楼","单位":"","警力":""}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[116.31378641568688,39.904467028499404]},"properties":{"Id":0,"名称":"15号楼","单位":"","警力":""}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[116.3131915504354,39.904368875732914]},"properties":{"Id":0,"名称":"综合楼","单位":"","警力":""}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[116.31561562633514,39.90465262645785]},"properties":{"Id":0,"名称":"恩菲大厦","单位":"","警力":""}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[116.31746560967798,39.90535218799358]},"properties":{"Id":0,"名称":"15号楼","单位":"","警力":""}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[116.31805381243865,39.90558632695656]},"properties":{"Id":0,"名称":"16号楼","单位":"","警力":""}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[116.31556296291438,39.90252232476253]},"properties":{"Id":0,"名称":"18号楼","单位":"","警力":""}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[116.31545172311233,39.902865562012636]},"properties":{"Id":0,"名称":"新华社羊坊店56号院","单位":"","警力":""}}
+]}

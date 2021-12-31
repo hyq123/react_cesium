@@ -1,0 +1,5 @@
+{"type":"FeatureCollection", "features": [
+{"type":"Feature","geometry":{"type":"Point","coordinates":[116.31065200000012,39.89923300000004]},"properties":{"核录桩":"核录桩","岗位":"铁医路西口","类型":"核录桩"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[116.3149049000001,39.89912103000006]},"properties":{"核录桩":"核录桩","岗位":"铁医路东口","类型":"核录桩"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[116.31463283687555,39.90656159924972]},"properties":{"核录桩":"核录桩","岗位":"京东岗路口","类型":"核录桩"}}
+]}

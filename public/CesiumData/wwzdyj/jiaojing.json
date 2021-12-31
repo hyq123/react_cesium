@@ -1,0 +1,10 @@
+{"type":"FeatureCollection", "features": [
+{"type":"Feature","geometry":{"type":"Point","coordinates":[116.31465706000006,39.905890484000054]},"properties":{"OBJECTID":1,"岗位名称":"京东岗","警力数":"1","单位":"交通支队"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[116.3106461000001,39.90650202000006]},"properties":{"OBJECTID":2,"岗位名称":"京西路口","警力数":"2","单位":"交通支队"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[116.30947810200007,39.906088683000064]},"properties":{"OBJECTID":3,"岗位名称":"科苑过街天桥","警力数":"2","单位":"交通支队"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[116.31065000900003,39.90599896800006]},"properties":{"OBJECTID":4,"岗位名称":"京西北口","警力数":"1","单位":"交通支队"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[116.31064552700002,39.90762239700007]},"properties":{"OBJECTID":5,"岗位名称":"央视西门","警力数":"1","单位":"交通支队"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[116.31063800000004,39.90227200000004]},"properties":{"OBJECTID":6,"岗位名称":"空军大院东门","警力数":"1","单位":"交通支队"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[116.30662397600008,39.907321341000056]},"properties":{"OBJECTID":7,"岗位名称":"国海广场","警力数":"1","单位":"交通支队"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[116.3149049000001,39.89912103000006]},"properties":{"OBJECTID":8,"岗位名称":"铁医路东门","警力数":"1","单位":"交通支队"}}
+]}

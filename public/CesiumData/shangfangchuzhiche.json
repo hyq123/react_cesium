@@ -1,0 +1,4 @@
+{"type":"FeatureCollection", "features": [
+{"type":"Feature","geometry":{"type":"Point","coordinates":[116.31056676898208,39.907618402518665]},"properties":{"Id":0,"名称":"上访处置车","单位":"","警力":"","备注":""}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[116.31563430609557,39.908705962931684]},"properties":{"Id":0,"名称":"上访处置车","单位":"","警力":"","备注":""}}
+]}

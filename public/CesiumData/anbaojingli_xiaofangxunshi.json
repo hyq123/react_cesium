@@ -1,0 +1,6 @@
+{"type":"FeatureCollection", "features": [
+{"type":"Feature","geometry":{"type":"Point","coordinates":[116.3128680304748,39.90599624128336]},"properties":{"Id":0,"单位":"消防支队","警力":"1人","岗位":"京西宾馆北侧巡视","着装":"制服"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[116.3107340029402,39.90502124920468]},"properties":{"Id":0,"单位":"消防支队","警力":"1人","岗位":"京西宾馆西侧巡视","着装":"制服"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[116.31484340823998,39.905602123225435]},"properties":{"Id":0,"单位":"消防支队","警力":"1人","岗位":"京西宾馆东侧巡视","着装":"制服"}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[116.31288834789915,39.90447406835179]},"properties":{"Id":0,"单位":"消防支队","警力":"1人","岗位":"京西宾馆南侧巡视","着装":"制服"}}
+]}

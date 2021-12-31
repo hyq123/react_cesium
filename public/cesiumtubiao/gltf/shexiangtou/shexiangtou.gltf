@@ -1,0 +1,180 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.6.16",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "name" : "qingmo_baa5c3ec-456a-4eec-939d-751b4c13aed6",
+            "rotation" : [
+                -0.3535539209842682,
+                -0.6123721599578857,
+                -0.35355332493782043,
+                0.6123724579811096
+            ],
+            "scale" : [
+                0.0010000020265579224,
+                0.0010000016773119569,
+                0.0010000007459893823
+            ],
+            "translation" : [
+                0.012908585369586945,
+                0.08442674577236176,
+                -1.5188217730610631e-05
+            ]
+        },
+        {
+            "mesh" : 0,
+            "name" : "shexiangtou",
+            "rotation" : [
+                0.7071067094802856,
+                0,
+                0.7071068286895752,
+                6.883938397095335e-08
+            ],
+            "scale" : [
+                0.0010000000474974513,
+                0.0010000000474974513,
+                0.0010000000474974513
+            ],
+            "translation" : [
+                0,
+                1.2699129001703113e-05,
+                3.0383946068468504e-05
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Material #40",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0
+                },
+                "roughnessFactor" : 0.858578622341156
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "\u7f51\u683c",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2,
+                        "TEXCOORD_1" : 3
+                    },
+                    "indices" : 4,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "HD_shexingtou_diff",
+            "uri" : "HD_shexingtou_diff.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 42653,
+            "max" : [
+                47.71165466308594,
+                0,
+                47.713951110839844
+            ],
+            "min" : [
+                -47.71165466308594,
+                -93.12687683105469,
+                -47.713951110839844
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 42653,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 42653,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 42653,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5123,
+            "count" : 220341,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 511836,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 511836,
+            "byteOffset" : 511836
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 341224,
+            "byteOffset" : 1023672
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 341224,
+            "byteOffset" : 1364896
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 440682,
+            "byteOffset" : 1706120
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 2146804,
+            "uri" : "shexiangtou.bin"
+        }
+    ]
+}
